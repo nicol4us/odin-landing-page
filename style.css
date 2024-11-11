@@ -22,9 +22,27 @@ ul, .header-info {
     display: flex;
     color: #E5E7EB;
     gap: 20px;
+    font-size: 18px;
 }
 
 .header-title {
     font-size: 48px;
     color: #F9FAF8;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image {
+    font-size: 18px;
+    color:#E5E7EB;
+    background: grey;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
