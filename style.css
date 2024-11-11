@@ -1,0 +1,30 @@
+.header {
+    background: #1F2937;
+
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul, .header-info {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+.header-title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
