@@ -1,14 +1,11 @@
 .header {
     background: #1F2937;
-
-}
-
-.top-header {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
+
 }
+
+
 
 .header-logo {
     font-size: 24px;
@@ -25,6 +22,10 @@ ul, .header-info {
     font-size: 18px;
 }
 
+.left-header {
+    width: 400px;
+}
+
 .header-title {
     font-size: 48px;
     color: #F9FAF8;
@@ -32,7 +33,7 @@ ul, .header-info {
 
 .bottom-header {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -40,9 +41,17 @@ ul, .header-info {
     font-size: 18px;
     color:#E5E7EB;
     background: grey;
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    background: #3882F6;
+    border-radius: 8px;
+    color: white;
+    margin-top: 16px;
+    padding: 8px 20px;
 }
