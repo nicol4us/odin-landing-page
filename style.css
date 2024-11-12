@@ -1,16 +1,21 @@
 .header {
-    background: #1F2937;
+    background: #1F2937; 
     display: flex;
-    flex-direction: column;  
-   
+    justify-content: center;
+    padding-top: 16px;
 
 }
 
-.top-header {
+.header-container {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+    flex-direction: column;
+    gap: 50px;
+}
+
+.top-header {
+   display: flex;
+   align-items: center;    
+   justify-content: space-between;
 }
 
 
@@ -29,31 +34,27 @@ ul, .header-info {
     font-size: 18px;
 }
 
-
-
-
-
 .header-title {
     font-size: 48px;
     color: #F9FAF8;
 }
 
 .bottom-header {
-    display: flex;
-    justify-content: space-around;
+   display: flex;
+   gap: 50px;
     
     
 }
 
 .left-bottom-header {
-    width: 300px;
+    width: 400px;
 }
 
 .header-image {
     font-size: 18px;
     color:#E5E7EB;
     background: grey;
-    width: 400px;
+    width: 500px;
     height: 200px;
     display: flex;
     justify-content: center;
