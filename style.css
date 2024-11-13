@@ -100,3 +100,23 @@ button {
     font-weight: 900;
     padding: 50px;
 }
+
+.body-middle {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-footer {
+    text-align: right;
+}
