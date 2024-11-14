@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     padding-top: 16px;
+    padding-bottom: 50px;   
 
 }
 
@@ -43,7 +44,7 @@ ul, .header-info {
 
 .bottom-header {
    display: flex;
-   gap: 50px;
+   gap: 100px;
     
     
 }
@@ -93,14 +94,16 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+    padding-bottom: 32px;
 }
 
 .information-header-text {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    padding: 50px;
+    padding: 32px;
+    
 }
 
 .body-middle {
@@ -108,10 +111,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .quote-container {
-    width: 800px;
+    width: 750px;
 }
 
 .quote {
@@ -122,3 +127,40 @@ button {
 .quote-footer {
     text-align: right;
 }
+
+.call-action-container {
+    background: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    gap: 50px;   
+    
+}
+
+.body-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer {
+    background: #1F2937;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.call-action-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sign-up {
+    border: 2px solid white;
+}
+
